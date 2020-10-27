@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/backend/.env
+/backend/merndb.txt
+/backend/node_modules
 
 # testing
 /coverage

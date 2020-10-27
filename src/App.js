@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+// COMPONENTS
+import Navbar from './components/navbar.component';
+import realtimeValues from './components/realtime-values.component';
+
+// ROUTES
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Router>
+        <Navbar />
+        <br />
+        {/* Cada ruta muestra un componente distinto */}
+        <Route path="/" exact component={realtimeValues} />
+      </Router>
     </div>
   );
 }
