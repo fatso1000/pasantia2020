@@ -1,4 +1,4 @@
-# pasantia2020
+# PASANTIA 2020
 Pasantia 7° 3° Tecnica 4 de Berazategui
 
 # Instalacion
