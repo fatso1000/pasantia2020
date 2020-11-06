@@ -31,4 +31,5 @@ npm start #Esto inicia el servidor back-end
 ```
 4. Si no se salto ninguno paso, el servidor de front-end se encuentra en http://localhost:3000/. Ahora puede ingresar desde el navegador con esa direccion url.
 
-#### Deployment de la raspberry pi
+#### Documentacion suplementario
+* [Google Docs](https://docs.google.com/document/d/1JiyfxzZFFVAlPOfiXO827ZUDTVUWe_U2SuqX5CDXIjw/edit?usp=sharing)
